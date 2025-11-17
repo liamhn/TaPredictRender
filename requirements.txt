@@ -1,4 +1,3 @@
-python_version=="3.11"
 jupyter
 streamlit
 trimesh
@@ -14,4 +13,5 @@ scikit-learn
 concave_hull
 rtree
 xgboost
+
 
