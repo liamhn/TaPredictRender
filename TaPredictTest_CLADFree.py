@@ -113,8 +113,8 @@ class Building:
         self.mesh_file_path = self.mesh_file_path.replace("\\","/")
         self.mesh_folder = os.path.dirname(self.mesh_file_path)
 
-        self.mesh_pcd_generation_multiplier = 1000 # Default Value
-        self.mesh_pcd_spacing = 0.5 # Default Value
+        self.mesh_pcd_generation_multiplier = 100 # Default Value
+        self.mesh_pcd_spacing = 1 # Default Value
         self.mesh_pcd = None
 
         self.mesh_edge_pcd_angle_threshold = 20
@@ -2589,5 +2589,6 @@ building.filter_z_rings()
 
 # Next we should collect all of the predicted taps into a predicted taps PCD
 building.PredictedTaps = building.collect_taps()
+
 
 building.PredictedTapPCD = building.get_predicted_tap_pcd()
