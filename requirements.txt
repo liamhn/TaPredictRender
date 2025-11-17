@@ -6,6 +6,7 @@ pyvista
 stpyvista
 open3d
 scipy
+shapely
 plotly
 network
 numpy
@@ -13,5 +14,6 @@ scikit-learn
 concave_hull
 rtree
 xgboost
+
 
 
