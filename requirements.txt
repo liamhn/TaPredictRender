@@ -1,0 +1,15 @@
+jupyter
+streamlit
+trimesh
+numpy
+pyvista
+stpyvista
+open3d
+scipy
+plotly
+network
+numpy
+scikit-learn
+concave_hull
+rtree
+xgboost
