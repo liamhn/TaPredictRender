@@ -8,12 +8,13 @@ open3d
 scipy
 shapely
 plotly
-network
+networkx
 numpy
 scikit-learn
 concave_hull
 rtree
 xgboost
+
 
 
 
